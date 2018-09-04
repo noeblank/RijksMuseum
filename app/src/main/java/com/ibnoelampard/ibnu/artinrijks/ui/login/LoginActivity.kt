@@ -88,5 +88,6 @@ class LoginActivity : BaseActivity<LoginActivityPresenter>(), LoginActivityView,
 
     override fun successLogin() {
         MainActivity.getInstance(this)
+        finish()
     }
 }
