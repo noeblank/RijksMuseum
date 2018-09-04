@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:padding="@dimen/_24sdp">
+
+        <LinearLayout
+            android:id="@+id/llForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_register"
+                android:layout_gravity="center"
+                android:textSize="28sp"
+                android:textAllCaps="true"
+                android:textColor="@color/text_black"/>
+
+           <ImageView
+               android:layout_width="@dimen/_80sdp"
+               android:layout_height="@dimen/_80sdp"
+               android:layout_gravity="center"
+               android:layout_margin="@dimen/_32sdp"
+               android:src="@drawable/ic_art_in_rijks_big"/>
+
+            <EditText
+                android:id="@+id/edtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:hint="@string/text_username"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:lines="1"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:inputType="textPassword"
+                android:hint="@string/text_passowrd"
+                android:imeOptions="actionDone"/>
+
+            <CheckBox
+                android:id="@+id/checkTnc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:textColor="@color/text_black"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:textSize="12sp"
+                android:text="@string/text_tnc"/>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="left"
+                android:textSize="16sp"
+                android:text="@string/text_register"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:paddingRight="@dimen/_32sdp"
+                android:paddingLeft="@dimen/_32sdp"
+                android:background="@drawable/bg_rounded_button"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

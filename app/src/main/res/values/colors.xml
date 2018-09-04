@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff8f00</color>
+    <color name="colorPrimaryDark">#c56000</color>
+    <color name="colorAccent">#ffc046</color>
+    <color name="bg_navigation_view">#737373</color>
+    <color name="bg_navigation_header">#616161</color>
+    <color name="background">#f7f7f7</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="background_error">#E85959</color>
+    <color name="button_black">#4A4A4A</color>
+    <color name="button_black_pressed">#393838</color>
+    <color name="text_black">#2A2A2A</color>
+    <color name="text_blue">#556799</color>
+</resources>
